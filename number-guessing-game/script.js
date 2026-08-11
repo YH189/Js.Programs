@@ -14,12 +14,12 @@ while (runn) {
   } else {
     attempt++;
     if (guess > answer) {
-      window.alert("The Number is TOO HIGH!");
+      window.alert("The given Number is TOO HIGH!");
     } else if (guess < answer) {
-      window.alert("The Number is TOO LOW");
+      window.alert("The given Number is TOO LOW");
     } else {
       window.alert(
-        `CONGRATS! You have the enterd the number after ${attempt} attempt`,
+        `CONGRATS! You guessed the number after ${attempt} attempt`,
       );
       runn = false;
     }
