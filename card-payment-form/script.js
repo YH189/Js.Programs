@@ -2,7 +2,7 @@ const checkbox = document.getElementById("checkit");
 const visabtn = document.getElementById("visabtn");
 const mastercard = document.getElementById("mastercard");
 const submit = document.getElementById("submit");
-const Paypal = document.getElementById("Paypal");
+const Paypl = document.getElementById("Paypal");
 const subresult = document.getElementById("subresult");
 const submitbtn = document.getElementById("submitbtn");
 submit.onclick = function () {
@@ -15,7 +15,7 @@ submit.onclick = function () {
     submitbtn.textContent = `Payment by Visa`;
   } else if (mastercard.checked) {
     submitbtn.textContent = `Payment by mastercard`;
-  } else if (Paypal.checked) {
+  } else if (Paypl.checked) {
     submitbtn.textContent = `Payment by Paypal`;
   } else {
     submitbtn.textContent = `Choose any of this Card payment!`;
