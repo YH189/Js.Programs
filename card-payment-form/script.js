@@ -9,7 +9,7 @@ submit.onclick = function () {
   if (checkbox.checked) {
     subresult.textContent = `You are subscribed`;
   } else {
-    subresult.textContent = `Please subscribe first!`;
+    subresult.textContent = `You need to subscribe first!`;
   }
   if (visabtn.checked) {
     submitbtn.textContent = `Payment by Visa`;
