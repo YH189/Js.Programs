@@ -14,6 +14,6 @@ function check() {
     temp = temp * 1.8 + 32;
     result.textContent = temp.toFixed(1) + "°C";
   } else {
-    result.textContent = "Select any 1 unit given above to convert ";
+    result.textContent = "Select any 1 unit";
   }
 }
