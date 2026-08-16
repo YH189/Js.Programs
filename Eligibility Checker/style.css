@@ -24,7 +24,7 @@ body {
   border: 1px solid black;
   height: 24px;
   width: 180px;
-  border-radius: 5px;
+  border-radius: 6px;
   margin-bottom: 8px;
   transition: transform 0.15s;
 }
