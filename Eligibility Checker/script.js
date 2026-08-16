@@ -9,7 +9,7 @@ btnclick.onclick = function () {
   if (age == 18) {
     resultshow.textContent = `You are eligible`;
   } else if (age <= 0) {
-    resultshow.textContent = `Enter Positive number`;
+    resultshow.textContent = `Enter a valid number`;
   } else if (age < 18) {
     resultshow.textContent = `You must be 18+ to apply`;
   } else if (age <= 95) {
