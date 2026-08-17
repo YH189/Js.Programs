@@ -1,4 +1,4 @@
-const min = 56;
+const min = 82;
 const max = 820;
 const answer = Math.floor(Math.random() * (max - min + 1)) + min;
 
